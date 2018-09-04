@@ -1,0 +1,26 @@
+// pattern
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int arr[4][4]={
+	{3},
+	{2,3},
+	{2,3,4},
+	{2,3,4,5}
+
+	};
+	int i,j;
+	for(i=0;i<4;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			if(i>=j)
+			printf("%d\t",arr[i][j]);
+			else
+			printf(" ");
+		}
+		printf("\n");
+	}
+		getch();
+}
